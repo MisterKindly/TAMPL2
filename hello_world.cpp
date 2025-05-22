@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-string name;
-cout << "Введите ваше имя";
-cin << name;
-cout << "Hello World from " << name << endl;
-return(0)
-;}
+    std::string name; //переменная для имени пользователя
+    std::cout << "Enter your name: "; //просьба ввести имя
+    std::cin >> name;
+    std::cout << "Hello world from " << name << std::endl; //вывод Hello world from <имя пользователя>
+    return 0;
+}
