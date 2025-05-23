@@ -9,5 +9,4 @@ main()
   std::cout << "Hello world from " << name
             << std::endl; //вывод: Hello world from <имя пользователя>
   return 0;
->>>>>>> 51f7f9a (Изменил стиль на Мозиллу)
 }
